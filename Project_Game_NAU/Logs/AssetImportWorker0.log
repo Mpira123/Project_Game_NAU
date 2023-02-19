@@ -15,7 +15,7 @@ D:/Project_Game_NAU/Project_Game_NAU
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53899
+63072
 Successfully changed project path to: D:/Project_Game_NAU/Project_Game_NAU
 D:/Project_Game_NAU/Project_Game_NAU
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Project_Game_NAU/Project_Game_NAU
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2956] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 1949494602 [EditorId] 1949494602 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F4ANF89) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6520] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 117237010 [EditorId] 117237010 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F4ANF89) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2956] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 1949494602 [EditorId] 1949494602 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F4ANF89) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6520] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 117237010 [EditorId] 117237010 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F4ANF89) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 1250.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1922.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path D:/Unity Engine/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -63,59 +63,53 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     2009 MB
     Driver:   25.21.14.2546
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Initialize mono
 Mono path[0] = 'D:/Unity Engine/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity Engine/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity Engine/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity Engine/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity Engine/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity Engine/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.022107 seconds.
+Registered in 0.027894 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1865 ms
+Android Extension - Scanning For ADB Devices 4072 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 304.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 663.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.849 seconds
+- Completed reload, in 11.579 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4851ms)
-		BeginReloadAssembly (413ms)
+	ReloadAssembly (11588ms)
+		BeginReloadAssembly (1194ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (5ms)
-		EndReloadAssembly (3956ms)
-			LoadAssemblies (409ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (9478ms)
+			LoadAssemblies (1196ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (457ms)
+			SetupTypeCache (1239ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (3196ms)
+			RebuildScriptCaches (441ms)
+			SetupLoadedEditorAssemblies (7457ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2329ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (304ms)
+				InitializePlatformSupportModulesInManaged (6132ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (663ms)
 				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (393ms)
-				ProcessInitializeOnLoadMethodAttributes (165ms)
+				ProcessInitializeOnLoadAttributes (451ms)
+				ProcessInitializeOnLoadMethodAttributes (205ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.032792 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Project_Game_NAU\Project_Game_NAU\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Project_Game_NAU\Project_Game_NAU\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 4.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Registered in 0.039261 seconds.
